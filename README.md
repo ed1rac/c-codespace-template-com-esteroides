@@ -1,4 +1,4 @@
-# Codespace para desenvolcimento em C com esteroides
+# Codespace para desenvolvimento em C com esteroides
 Este repositório Codespaces fornece um ambiente de desenvolvimento pré-configurado para desenvolvimento em C. Ele inclui todos os softwares e ferramentas necessários para você começar a programar, sem a necessidade de instalar nada em seu computador.  
 ## Linguagens disponíveis
 - C/ C++
@@ -7,7 +7,7 @@ Este repositório Codespaces fornece um ambiente de desenvolvimento pré-configu
 - Python
 - Rust
 
-  ## Features instaladas
+## Features instaladas
 - docker-in-docker
 - sshd
 - pandoc
@@ -23,16 +23,11 @@ Este repositório Codespaces fornece um ambiente de desenvolvimento pré-configu
 - cypress
 - cowsay
 - pytest
-- pyupgrade:1": {
-			"version": "latest"
-		},
-		"ghcr.io/devcontainers-contrib/features/bash-command:1": {
-			"command": "touch instala-config-ed.sh && curl https://raw.githubusercontent.com/ed1rac/FerramentasProgramacao/master/instala-config-codespace.sh > instala-config-ed.sh && chmod +x instala-config-ed.sh && ./instala-config-ed.sh"
-		}
+- pyupgrade
 
 ## Instruções do Terminal
 **Programação I**
-Template para as disciplinas de Programação do [Professor Ed](https://edkallenn.github.io/)  do Centro Universitário Unipê de João Pessoa - Paraíba.
+Template para as disciplinas de Programação do [Professor Ed](https://edkallenn.github.io/) do Centro Universitário Unipê de João Pessoa - Paraíba.
 **Comandos do terminal**
 
 | Comando | Descrição |
