@@ -65,7 +65,7 @@
 		"ghcr.io/lee-orr/rusty-dev-containers/wasm32-unknown-unknown:0": {},
 		"ghcr.io/schlich/devcontainer-features/cypress:1": {},
 		"ghcr.io/joshspicer/more-features/cowsay:1": {},
-		"ghcr.io/hspaans/devcontainer-features/pytest:1": {
+		"ghcr.io/hspaans/devcontainer-features/pytest:2": {
 			"version": "latest",
 			"plugins": "pytest-testinfra"
 		},
