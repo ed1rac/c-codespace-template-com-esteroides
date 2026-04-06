@@ -69,7 +69,7 @@
 			"version": "latest",
 			"plugins": "pytest-testinfra"
 		},
-		"ghcr.io/hspaans/devcontainer-features/pyupgrade:1": {
+		"ghcr.io/hspaans/devcontainer-features/pyupgrade:2": {
 			"version": "latest"
 		},
 		"ghcr.io/devcontainers-contrib/features/bash-command:1": {
