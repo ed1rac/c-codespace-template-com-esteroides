@@ -1,79 +1,61 @@
-# 🚀 Codespace para C com Esteroides
+# 🚀 Codespace para C/C++ "com Esteroides"
 
 <div align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="150" alt="Terminal Matrix GIF">
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ed1rac/c-codespace-template-com-esteroides)
+[![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-GCC_12_%2B_Clang-00599C?logo=c%2B%2B)](https://gcc.gnu.org/)
+[![Valgrind](https://img.shields.io/badge/Memory-Valgrind_Ready-red.svg)](https://valgrind.org/)
+[![Docker](https://img.shields.io/badge/DevContainer-Docker-2496ED?logo=docker)](https://code.visualstudio.com/docs/devcontainers/containers)
+
+**Ambiente completo de desenvolvimento na nuvem (Cloud IDE) pré-configurado para programar em C, C++, Python e Rust em menos de 10 segundos diretamente no navegador!**
+
+</div>
+
+---
+
+## 🎯 Por que usar este template?
+
+Esqueça o sofrimento de instalar compiladores no Windows, configurar variáveis de ambiente `PATH`, lidar com MinGW desatualizado ou instalar máquinas virtuais pesadas. 
+
+Ao clicar no botão abaixo, o GitHub cria uma máquina virtual dedicada na nuvem com **VS Code completo**, compiladores modernos e ferramentas de depuração já configuradas:
+
+<div align="center">
   <br>
-  <strong>Ambiente de desenvolvimento na nuvem pré-configurado para C e outras linguagens</strong>
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/GitHub_Codespaces-181717?style=for-the-badge&logo=github&logoColor=white" alt="Codespaces">
+  <a href="https://codespaces.new/ed1rac/c-codespace-template-com-esteroides" target="_blank">
+    <img src="https://github.com/codespaces/badge.svg" height="40" alt="Open in GitHub Codespaces" />
+  </a>
+  <br>
 </div>
 
 ---
 
-## 🌟 Sobre o Template
+## 🛠️ O que vem pré-instalado neste ambiente?
 
-Este repositório fornece um **ambiente de desenvolvimento pré-configurado** (Codespaces) focado em **C**, mas supertunado para diversas outras demandas. Ele inclui todos os softwares, extensões e ferramentas necessários para você começar a programar em segundos, direto no seu navegador, sem a necessidade de instalar absolutamente *nada* no seu computador local.
-
-Criado originalmente como um *template* para as disciplinas de Programação do **Professor Ed** no Centro Universitário Unipê (João Pessoa - Paraíba).
-
-### 📚 Linguagens Disponíveis
-Além do ambiente robusto para C/C++, o container também oferece suporte nativo embutido para:
-- **C / C++**
-- **Python**
-- **Rust**
-- **HTML / CSS / Javascript**
-- **Node.js**
-
-### 🛠️ Features Instaladas no Container
-O ambiente conta com esteroides reais! Algumas das *features* já ativadas por padrão:
-- Ferramentas gerais: `docker-in-docker`, `sshd`, `pandoc`, `vscode-cli`, `vscode-server`, `shell-history`, `prettier`, `wasm32`, `cypress`, `cowsay`.
-- Ecossistema Python completo: `pylint`, `pytest`, `python-launcher`, `pyupgrade`, `pyscaffold`, `pyoxidizer`.
+- ⚙️ **Compiladores & Build**: `gcc`, `g++`, `clang`, `make`, `gdb`, `gfortran`.
+- 🔍 **Inspeção de Memória**: `valgrind` (rastreamento completo de vazamentos de memória e falhas de segmentação).
+- 🧩 **Extensões do VS Code Configuradas**:
+  - C/C++ IntelliSense, code completion e debbuger integrado
+  - Formatador automático de código (`clang-format` no padrão Google/LLVM)
+  - Extensões para Python, Rust e Shell Script
+  - Temas visuais e ícones modernos para produtividade
+- 🐚 **Terminal Customizado**: Shell interativo com atalhos e aliases pré-configurados.
 
 ---
 
-## 💻 Instruções de Uso no Terminal
+## 💻 Como Começar em 3 Passos
 
-O ambiente já vem configurado para compilar e rodar seus códigos perfeitamente pelo terminal integrado. 
-
-### Para compilar:
-Você pode usar o utilitário `make` (a forma mais fácil):
-```bash
-make <nome_do_arquivo>
-```
-Ou compilar manualmente direto com o `gcc`:
-```bash
-gcc <nome_do_arquivo>.c -o <nome_do_arquivo>
-```
-
-> ⚠️ **Aviso sobre bibliotecas matemáticas:** Se no seu código C você incluir a biblioteca `<math.h>`, lembre-se de adicionar a *flag* `-lm` obrigatoriamente no final do comando de compilação se for usar o gcc manualmente:
-> `gcc <nome_do_arquivo>.c -o <nome_do_arquivo> -lm`
-
-### Para executar o programa:
-Após a compilação ocorrer sem erros, execute o binário gerado digitando:
-```bash
-./<nome_do_arquivo>
-```
-
----
-
-## 👨‍💻 Autor
-
-👋 Feito por **Prof. Ed (Edkallenn Lima)**
-- ⭐️ Página Pessoal: [edkallenn.github.io](https://edkallenn.github.io/)
-- 📧 E-mail: [edkallenn@yahoo.com.br](mailto:edkallenn@yahoo.com.br)
-- 🌐 [LinkedIn](https://www.linkedin.com/in/edkallenn/) | [GitHub](https://github.com/ed1rac)
+1. Clique em **[Abrir no GitHub Codespaces](https://codespaces.new/ed1rac/c-codespace-template-com-esteroides)**.
+2. Aguarde o container inicializar (cerca de 30 segundos na primeira vez).
+3. Crie um arquivo `teste.c` e execute no terminal:
+   ```bash
+   gcc teste.c -o teste && ./teste
+   ```
 
 ---
 
 ## ☕ Apoie o Projeto (Me Pague um Café / Buy Me a Coffee)
 
-Este projeto é desenvolvido com dedicação e carinho. Se este projeto foi útil para os seus estudos, trabalho ou produtividade diária e você quiser apoiar o desenvolvimento contínuo:
+Este projeto é desenvolvido com dedicação e carinho à disseminação do conhecimento e da tecnologia. Se ele foi útil para os seus estudos, aulas, trabalho ou produtividade diária e você quiser apoiar o desenvolvimento contínuo:
 
 - ☕ **Buy Me a Coffee (Internacional / Cartão / QR Code)**:
   - 👉 **[https://buymeacoffee.com/edkallenn](https://buymeacoffee.com/edkallenn)**
