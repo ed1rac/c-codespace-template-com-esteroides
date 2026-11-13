@@ -1,0 +1,5 @@
+theme: jekyll-theme-architect
+title: "⚡ C Codespace Template com Esteroides"
+description: "Ambiente completo de desenvolvimento C/C++ na nuvem com GCC, Clang, Valgrind, GDB e VS Code."
+kramdown:
+  parse_block_html: true
