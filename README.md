@@ -1,14 +1,13 @@
 # 🚀 Codespace para C/C++ "com Esteroides"
 
 <div align="center">
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ed1rac/c-codespace-template-com-esteroides)
-[![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-GCC_12_%2B_Clang-00599C?logo=c%2B%2B)](https://gcc.gnu.org/)
-[![Valgrind](https://img.shields.io/badge/Memory-Valgrind_Ready-red.svg)](https://valgrind.org/)
-[![Docker](https://img.shields.io/badge/DevContainer-Docker-2496ED?logo=docker)](https://code.visualstudio.com/docs/devcontainers/containers)
-
-**Ambiente completo de desenvolvimento na nuvem (Cloud IDE) pré-configurado para programar em C, C++, Python e Rust em menos de 10 segundos diretamente no navegador!**
-
+  <p>
+    <a href="https://codespaces.new/ed1rac/c-codespace-template-com-esteroides"><img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces"></a>
+    <a href="https://gcc.gnu.org/"><img src="https://img.shields.io/badge/C%2FC%2B%2B-GCC_12_%2B_Clang-00599C?logo=c%2B%2B" alt="C/C++"></a>
+    <a href="https://valgrind.org/"><img src="https://img.shields.io/badge/Memory-Valgrind_Ready-red.svg" alt="Valgrind"></a>
+    <a href="https://code.visualstudio.com/docs/devcontainers/containers"><img src="https://img.shields.io/badge/DevContainer-Docker-2496ED?logo=docker" alt="Docker"></a>
+  </p>
+  <p><strong>Ambiente completo de desenvolvimento na nuvem (Cloud IDE) pré-configurado para programar em C, C++, Python e Rust em menos de 10 segundos diretamente no navegador!</strong></p>
 </div>
 
 ---
